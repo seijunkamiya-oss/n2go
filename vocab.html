@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>核心词汇 | JLPT N2 一本通</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<nav class="nav">
+  <span class="nav-brand">🌸 JLPT N2 一本通</span>
+  <a href="index.html">🏠 首页</a>
+  <a href="grammar.html">📝 语法</a>
+  <a href="vocab.html">📚 词汇</a>
+  <a href="kanji.html">🈷️ 汉字</a>
+  <a href="reading.html">📰 读解</a>
+  <a href="listening.html">🎧 听解</a>
+  <a href="exam.html">📋 模考</a>
+  <a href="plan.html">✅ 打卡</a>
+</nav>
+<div class="container">
+
+<div class="hero" style="background:linear-gradient(135deg,#10B981 0%,#3B82F6 100%);">
+  <span class="emoji">📚</span>
+  <h1>核心词汇 1000+</h1>
+  <p>分类整理 · 隐藏假名自测 · 标记已掌握</p>
+</div>
+<div class="card">
+  <input type="search" id="v-search" placeholder="🔍 搜索汉字/假名/中文…">
+  <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
+    <button class="btn btn-sm" id="v-hideKana">👁️ 隐藏假名</button>
+    <button class="btn btn-sm btn-secondary" id="v-hideMean">👁️ 隐藏中文</button>
+    <button class="btn btn-sm btn-success" id="v-shuffle">🔀 打乱顺序</button>
+  </div>
+  <div style="margin-top:10px"><span class="badge badge-green">已掌握 <span id="v-count">0</span></span></div>
+</div>
+<div id="vocab-list" class="card"></div>
+
+</div>
+<footer class="footer">🌸 JLPT N2 一本通 · Made with ❤️ for 中国学习者 · 2026</footer>
+<script src="assets/app.js"></script>
+</body></html>
